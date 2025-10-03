@@ -18,4 +18,4 @@ docker run --rm --cap-add=NET_ADMIN -v /dev/net/tun:/dev/net/tun -v /some/path/t
 
 adjust /some/path/to/local to a local folder that you want to share as /local in the docker for easy transfer of files between docker and host
 
-Use /root/tnm.sh to launch tmux and split the terminal in 4
+Use /root/tm.sh to launch tmux and split the terminal in 4
